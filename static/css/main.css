@@ -1,0 +1,47 @@
+ul,
+ul li ul,
+ul li ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.nutrition-plan-box .nutrition-plan-list .nutrition-plan-item {
+  overflow: hidden;
+  margin-top: 1em;
+  border-top: 1px solid #efefef; }
+  .nutrition-plan-box .nutrition-plan-list .nutrition-plan-item:last-child {
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 1em; }
+  .nutrition-plan-box .nutrition-plan-list .nutrition-plan-item .item-content li {
+    float: left; }
+    @media (max-width: 600px) {
+      .nutrition-plan-box .nutrition-plan-list .nutrition-plan-item .item-content li {
+        float: none;
+        width: 100%; }
+        .nutrition-plan-box .nutrition-plan-list .nutrition-plan-item .item-content li h5 {
+          background: #efefef; } }
+  .nutrition-plan-box .nutrition-plan-list .nutrition-plan-item .breakfest,
+  .nutrition-plan-box .nutrition-plan-list .nutrition-plan-item .supper {
+    width: 25%; }
+  .nutrition-plan-box .nutrition-plan-list .nutrition-plan-item .lunch {
+    width: 50%; }
+
+.smoothies-list-box {
+  margin-top: 1em; }
+  .smoothies-list-box .smoothies-list .smoothie-item .calories h5 {
+    display: inline-block;
+    margin: 0; }
+  .smoothies-list-box .smoothies-list .smoothie-item .ingredients-list {
+    margin-left: 1em; }
+    .smoothies-list-box .smoothies-list .smoothie-item .ingredients-list .ingredient {
+      list-style: circle; }
+
+.meals-list-box {
+  margin-top: 1em; }
+  .meals-list-box .meals-list .meal-item .calories h5 {
+    display: inline-block;
+    margin: 0; }
+  .meals-list-box .meals-list .meal-item .ingredients-list {
+    margin-left: 1em; }
+    .meals-list-box .meals-list .meal-item .ingredients-list .ingredient {
+      list-style: circle; }
