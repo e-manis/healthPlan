@@ -29,7 +29,7 @@ Ssh into dev box and setup project
 ```vagrant ssh```  
 ```cd projects```  
 ```git clone {repo_url}```  
-```cd es-hackfest-page/app```
+```cd healthPlan/app```
 
 An nfs share is provided under ```nfs://{hostname}/home/vagrant/projects/```  
 
