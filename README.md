@@ -1,4 +1,4 @@
-HealthPlan - Nutrition and excersizes
+HealthPlan - Nutrition and exercizes
 ================
 
 Small project that provides infos that help to eat healthy, get fit and lose weight.
