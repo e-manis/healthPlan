@@ -1,0 +1,4 @@
+<div class="welcome-box">
+{% capture welcome_text %}{% include texts/welcome.md %}{% endcapture %}
+{{ welcome_text | markdownify }}
+</div>

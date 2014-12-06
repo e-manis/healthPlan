@@ -1,0 +1,29 @@
+<div class="meals-list-box">
+    <h3>Warme Mahlzeiten - Rezepte</h3>
+    <ul class="meals-list row">
+    {% for meal in site.data.meals_list %}
+        <li id="{{meal[0]}}" class="meal-item large-6 medium-12 columns">
+            <h4 class="item-header"><a href="#{{meal[0]}}">{{meal[1].name}}</a></h4>
+            <div class="calories">
+                <h5>Kalorien:</h5>
+                <span>{{meal[1].calories}} kcal</span>
+            </div>
+            <div class="ingredients">
+                <h5>Zutaten:</h5>
+                <ul class="ingredients-list">
+                    {% for ingredient in meal[1].ingredients %}
+                    <li class="ingredient">
+                        {{ingredient}}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="preparation">
+                <h5>Zubereitung:</h5>
+                {% capture preparation_file %}texts/recipes/{{meal[0]}}.md{% endcapture %}
+                {% include {{preparation_file}} %}
+            </div>
+        </li>
+    {% endfor %}
+    </ul>
+</div>

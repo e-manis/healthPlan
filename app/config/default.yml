@@ -1,0 +1,8 @@
+environment: production
+name: e-unit-lean
+markdown: rdiscount
+permalink: pretty
+highlighter: pygments
+destination: pub
+source: site
+baseurl: //

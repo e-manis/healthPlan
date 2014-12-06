@@ -1,0 +1,41 @@
+smoothie__popeye:
+    name: Popeye
+    calories: 600
+    ingredients:
+        - 2 Bananen
+        - 1 Apfel
+        - 1/2 Papaya
+        - 1/2 Zitrone
+        - 1 handvoll Blattspinat
+
+smoothie__tarzan:
+    name: Tarzan
+    calories: 600
+    ingredients:
+        - 2 Bananen
+        - 1 Apfel
+        - 1/2 Papaya
+        - 1/2 Zitrone
+        - 1 Brocolli
+
+smoothie__bloody_larry:
+    name: Bloody Larry
+    calories: 600
+    ingredients:
+        - 2 Bananen
+        - 1 Apfel
+        - 1 Orange
+        - 1/2 Zitrone
+        - 1 Möhre
+        - 1 Rote Beete
+
+smoothie__sweet:
+    name: Sweet!
+    calories: 600
+    ingredients:
+        - 2 Bananen
+        - 1 Apfel
+        - handvoll gefrorene Himbeeren
+        - handvoll gefrorene Erdbeeren
+        - 1/2 Zitrone
+        - 1 Salat

@@ -1,0 +1,13 @@
+ul,
+ul li ul,
+ul li ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@import "_welcome";
+@import "_strategy";
+@import "_nutrition_plan";
+@import "_smoothies_list";
+@import "_meals_list";

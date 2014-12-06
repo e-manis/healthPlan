@@ -1,0 +1,22 @@
+<div class="smoothies-list-box">
+    <h3>Smoothies - Rezepte</h3>
+    <ul class="smoothies-list large-block-grid-3 medium-block-grid-2 small-block-grid-1">
+    {% for smoothie in site.data.smoothies_list %}
+        <li id="{{smoothie[0]}}" class="smoothie-item">
+            <h4 class="item-header"><a href="#{{smoothie[0]}}">{{smoothie[1].name}}</a></h4>
+            <div class="calories">
+                <h5>Kalorien:</h5>
+                <span>{{smoothie[1].calories}} kcal</span>
+            </div>
+            <div class="ingredients">
+                <h5>Zutaten:</h5>
+                <ul class="ingredients-list">
+                    {% for ingredient in smoothie[1].ingredients %}
+                    <li class="ingredient">{{ingredient}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </li>
+    {% endfor %}
+    </ul>
+</div>

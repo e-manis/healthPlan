@@ -1,0 +1,36 @@
+.nutrition-plan-box {
+    .nutrition-plan-list {
+        .nutrition-plan-item {
+            overflow: hidden;
+            margin-top: 1em;
+            border-top: 1px solid #efefef;
+
+            &:last-child {
+                 border-bottom: 1px solid #efefef;
+                 padding-bottom: 1em;
+            }
+
+            .item-content li {
+                float: left;
+
+                @media (max-width: 600px) {
+                    float: none;
+                    width: 100%;
+
+                    h5 {
+                        background: #efefef;
+                    }
+                }
+            }
+
+            .breakfest,
+            .supper {
+                width: 25%;
+            }
+
+            .lunch {
+                width: 50%;
+            }
+        }
+    }
+}

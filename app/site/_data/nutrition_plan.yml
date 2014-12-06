@@ -1,0 +1,48 @@
+- {
+    day: Montag,
+    breakfast: smoothie__popeye,
+    lunch: meal__rice_n_shrooms,
+    supper: smoothie__sweet,
+}
+
+- {
+    day: Dienstag,
+    breakfast: smoothie__tarzan,
+    lunch: meal__rice_n_shrooms,
+    supper: smoothie__sweet,
+}
+
+- {
+    day: Mittwoch,
+    breakfast: smoothie__bloody_larry,
+    lunch: meal__rice_n_shrooms,
+    supper: smoothie__sweet,
+}
+
+- {
+    day: Donnerstag,
+    breakfast: smoothie__popeye,
+    lunch: meal__rice_n_shrooms,
+    supper: smoothie__sweet,
+}
+
+- {
+    day: Freitag,
+    breakfast: smoothie__tarzan,
+    lunch: meal__rice_n_shrooms,
+    supper: smoothie__sweet,
+}
+
+- {
+    day: Samstag,
+    breakfast: smoothie__bloody_larry,
+    lunch: meal__rice_n_shrooms,
+    supper: smoothie__sweet,
+}
+
+- {
+    day: Sonntag,
+    breakfast: smoothie__sweet,
+    lunch: meal__rice_n_shrooms,
+    supper: smoothie__sweet,
+}

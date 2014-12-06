@@ -1,0 +1,22 @@
+.meals-list-box {
+    margin-top: 1em;
+
+    .meals-list {
+        .meal-item {
+            .calories {
+                h5 {
+                    display: inline-block;
+                    margin: 0;
+                }
+            }
+
+            .ingredients-list {
+                margin-left: 1em;
+
+                .ingredient {
+                    list-style: circle;
+                }
+            }
+        }
+    }
+}

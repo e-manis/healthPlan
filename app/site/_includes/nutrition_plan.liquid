@@ -1,0 +1,25 @@
+<div class="nutrition-plan-box">
+    <h3>Ernährungsplan</h3>
+    <ul class="nutrition-plan-list">
+    {% for day_in_plan in site.data.nutrition_plan %}
+        <li class="nutrition-plan-item">
+            <h3 class="item-header">{{day_in_plan.day}}</h3>
+
+            <ul class="item-content">
+                <li class="breakfest">
+                    <h5>Morgens:</h5>
+                    <a href="#{{day_in_plan.breakfast}}">{{site.data.smoothies_list[day_in_plan.breakfast].name}}</a>
+                </li>
+                <li class="lunch">
+                    <h5>Mittags:</h5>
+                    <a href="#{{day_in_plan.lunch}}">{{site.data.meals_list[day_in_plan.lunch].name}}</a>
+                </li>
+                <li class="supper">
+                    <h5>Abends:</h5>
+                    <a href="#{{day_in_plan.supper}}">{{site.data.smoothies_list[day_in_plan.supper].name}}</a>
+                </li>
+            </ul>
+        </li>
+    {% endfor %}
+    </ul>
+</div>
