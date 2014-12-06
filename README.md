@@ -14,7 +14,7 @@ You may either develop locally or you can use the provided vagrant setup.
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [VirtualBox Extension Pack](http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html#extpack)
 * [Vagrant](http://downloads.vagrantup.com/)
-* vagrant-vbguest - ```vagrant plugin install vagrant-vbguest```
+* vagrant-vbguest (optional) - ```vagrant plugin install vagrant-vbguest```
 
 #### Setup
 
