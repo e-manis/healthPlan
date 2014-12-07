@@ -6,10 +6,10 @@ FULL_REPO="https://$GH_TOKEN$GH_REPO"
 # clone the gh-pages branch
 git clone --branch gh-pages ${FULL_REPO} deploy
 # tell git who we are
-git config user.name "e-manis"
-git config user.email "e-manis@gmx.de"
-# copy the build contents
 cd deploy
+git config user.name "e-manis"
+git config user.email "travis"
+# copy the build contents
 rm -rf *
 cp -rf ../app/pub/* .
 # commit back to github
