@@ -6,7 +6,7 @@ install:
   - gem install nokogiri
   - gem install rdiscount
 
-script: cd app/ && make && cd ..
+script: cd app && make && cd ..
 
 after_success:
     - chmod +x .push_gh_pages.sh
