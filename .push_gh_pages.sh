@@ -3,11 +3,11 @@
 GH_REPO="@github.com/e-manis/healthPlan.git"
 FULL_REPO="https://$GH_TOKEN$GH_REPO"
 
+# clone the gh-pages branch
+git clone --branch gh-pages ${FULL_REPO} deploy
 # tell git who we are
 git config user.name "e-manis"
 git config user.email "travis"
-# clone the gh-pages branch
-git clone --branch gh-pages ${FULL_REPO} deploy
 # copy the build contents
 cd deploy
 rm -rf *
