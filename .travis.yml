@@ -1,7 +1,10 @@
 language: ruby
 
 install:
-  - bundle install
+  - gem install jekyll
+  - gem install sass
+  - gem install nokogiri
+  - gem install rdiscount
 
 script: cd app/ && make
 
