@@ -1,0 +1,11 @@
+language: ruby
+
+install:
+  - bundle install
+
+script: cd app/ && make
+
+env:
+  global:
+    SITE_ENV: github_pages
+
