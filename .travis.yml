@@ -6,7 +6,7 @@ install:
   - gem install nokogiri
   - gem install rdiscount
 
-script: cd app/ && make
+script: cd app/ && make && cd ..
 
 after_success:
     - chmod +x .push_gh_pages.sh
@@ -16,4 +16,3 @@ env:
   global:
     - SITE_ENV: github_pages
     - secure: "VYFFfw66/9jKkDcovZL+zFu8iFqOoL/PBWxECaJmFFWlnsDlEXgNerS/YKWSg0xlIKyK6KgOt/UOx47dXoLluhinKj/q7qzWVlrmin19uulhDklFzs7DHgZ33vu0assyEfx/uEiLUXL/bQ5x1FcY7l/RIo8A5+/lOPCu937EETk="
-
