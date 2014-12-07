@@ -53,4 +53,4 @@ After making changes to the site, you must deploy by calling: ```make```.
 When you have finished making changes to the site and want to publish them call ```make deploy```.
 Then copy and commit the pub directory's contents to the gh-pages branch.
 
-When the repository is registered to travis-ci, the gh-pages will be built and updated upon every commit.
+When the repository is registered to travis-ci, the gh-pages branch will be built and updated upon every commit.
