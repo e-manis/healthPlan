@@ -5,6 +5,9 @@ install:
 
 script: cd app/ && make
 
+after_success:
+    - ./.push_gh_pages.sh
+
 env:
   global:
     SITE_ENV: github_pages
