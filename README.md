@@ -1,6 +1,8 @@
 HealthPlan - Nutrition and exercizes
 ================
 
+[![Build Status](https://secure.travis-ci.org/e-manis/healthPlan.png)](http://travis-ci.org/e-manis/healthPlan)
+
 Small project that provides infos that help to eat healthy, get fit and lose weight.
 
 ## Development
