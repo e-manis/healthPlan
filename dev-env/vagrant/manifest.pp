@@ -42,9 +42,9 @@ include git::client
 include avahi::daemon
 
 include nginx::server
-nginx::site { "olaftrommer.local":
-  name => "olaftrommer.local",
-  docroot => "/home/vagrant/projects/olaftrommer.de/app/pub",
+nginx::site { "emanis-healthplan.local":
+  name => "emanis-healthplan.local",
+  docroot => "/home/vagrant/projects/healthPlan/app/pub",
   norewrite => "YES"
 }
 

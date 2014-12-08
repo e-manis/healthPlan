@@ -21,19 +21,19 @@ You may either develop locally or you can use the provided vagrant setup.
 #### Setup
 
 Clone repository  
-```{repo_url}```
+```git clone git@github.com:e-manis/healthPlan.git```
 
 Boot and provision vagrant box
-```cd {project_name}/dev-env/vagrant```  
+```cd healthPlan/dev-env/vagrant```  
 ```vagrant up --provision```
 
 Ssh into dev box and setup project  
 ```vagrant ssh```  
 ```cd projects```  
-```git clone {repo_url}```  
+```git clone git@github.com:e-manis/healthPlan.git```  
 ```cd healthPlan/app```
 
-An nfs share is provided under ```nfs://{hostname}/home/vagrant/projects/```  
+An nfs share is provided under ```nfs://emanis-healthplan.local/home/vagrant/projects/```  
 
 ### Developing locally
 
@@ -55,4 +55,4 @@ After making changes to the site, you must deploy by calling: ```make```.
 When you have finished making changes to the site and want to publish them call ```make deploy```.
 Then copy and commit the pub directory's contents to the gh-pages branch.
 
-When the repository is registered to travis-ci, the gh-pages branch will be built and updated upon every commit.
+When the repository is registered to travis-ci, the gh-pages branch will be built automatically and updated upon every commit.
