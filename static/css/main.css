@@ -46,4 +46,10 @@ ul li ul li {
     .meals-list-box .meals-list .meal-item .ingredients-list .ingredient {
       list-style: circle; }
 
+.github-fork-ribbon-wrapper.right .github-fork-ribbon {
+  background-color: #090; }
+  .github-fork-ribbon-wrapper.right .github-fork-ribbon img {
+    width: 30px;
+    height: 30px; }
+
 /*# sourceMappingURL=main.css.map */
