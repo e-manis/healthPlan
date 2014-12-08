@@ -11,3 +11,13 @@ ul li ul li {
 @import "_nutrition_plan";
 @import "_smoothies_list";
 @import "_meals_list";
+
+.github-fork-ribbon-wrapper.right {
+    .github-fork-ribbon {
+        background-color: #090;
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
